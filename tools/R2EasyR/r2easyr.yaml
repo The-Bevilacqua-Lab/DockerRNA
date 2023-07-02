@@ -1,0 +1,11 @@
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - r2r
+  - r-base
+  - r-devtools
+  - pip:
+    - biopython==1.79
