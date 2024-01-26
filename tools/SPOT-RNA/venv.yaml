@@ -1,0 +1,9 @@
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - gxx_linux-64==11.1.0
+  - pip:
+    - tensorflow==1.14.0
